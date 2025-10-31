@@ -35,6 +35,6 @@ In the `Laptop_price Dataset.ipynb` notebook, you will find the following core s
 
 ## 🚀 How to Run
 
-1.  Clone this repository or download the `Laptop_price Dataset.ipynb` file.
-2.  Open **Jupyter Notebook** or **Google Colab** on your system.
-3.  Open the notebook and run the cells sequentially.
+1.  Clone this repository or download the `.ipynb` file.
+2.  Open [Jupyter Notebook](https://jupyter.org/install) or [Google Colab](https://colab.research.google.com/) on your system.
+3.  Open the `Laptop_price Dataset.ipynb` file and run the cells.
