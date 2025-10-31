@@ -1,35 +1,31 @@
-# 💻 Laptop Price Analysis
+# 💻 Laptop Price Analysis and Visualization
 
-This project uses the **Laptop Price Dataset** to build a Machine Learning model. The main goal is to accurately **predict** a laptop's price based on its various specifications (such as RAM, CPU, storage, and screen size).
-
----
+This project uses the **Laptop Price Dataset** to perform **Exploratory Data Analysis (EDA)**, investigating the relationship between various laptop specifications and their market price. This is a pure data analysis project and does **not** include any Machine Learning or model building.
 
 ## 📖 Project Goal
 
-The primary objective is to identify which features most significantly influence the price of a laptop and to use these insights to create a reliable price prediction model.
-
----
+The primary objective is to discover which features most significantly influence the price of a laptop—such as **RAM**, **CPU Type**, **Storage Configuration**, or **Screen Resolution**—and to clearly present these relationships through data visualization.
 
 ## 🛠️ Technologies Used
 
-The entire analysis and modeling process is performed using **Python**. The main libraries utilized are:
+The entire analysis is carried out using Python. As per your instruction, the main libraries are:
 
-* **Pandas & Numpy:** For data cleaning, processing, and numerical operations.
-* **Seaborn & Matplotlib:** For visualizing the relationship between laptop specs and price.
-* **Scikit-learn (Sklearn):** For building and evaluating Machine Learning models (such as Linear Regression and Random Forest).
-* **Jupyter Notebook:** For step-by-step documentation of code, analysis, and results.
+* **Pandas:** For robust data manipulation and cleaning.
+* **Numpy:** For efficient numerical operations.
+* **Seaborn & Matplotlib:** For visualizing the relationship between laptop specs and price using attractive charts and graphs.
+* **Jupyter Notebook:** For step-by-step documentation of the analysis and its results.
 
 ---
 
-## 📊 Analysis and Modeling Steps
+## 📊 Key Analysis Steps
 
-In the `Laptop_price Dataset.ipynb` notebook, you will find the following core steps:
+Within the `Laptop_price Dataset.ipynb` notebook, you will find the following crucial data analysis steps:
 
-1.  **Exploratory Data Analysis (EDA):** Exploring the relationships among columns like `Company`, `CPU`, `RAM`, `Inches`, and `Price`.
-2.  **Feature Engineering:** Dividing some columns (e.g., `ScreenResolution`, `Memory`) into more useful features, and encoding `Operating System` and other categorical data.
-3.  **Data Scaling:** Applying a logarithmic scale to skewed data, such as Price, to improve model performance.
-4.  **Model Training:** Training price prediction models using various Machine Learning algorithms.
-5.  **Model Evaluation:** Comparing the performance of the trained models and selecting the best one.
+1.  **Data Cleaning & Preparation:** Checking data quality, handling NaN values, and preparing the dataset for analysis.
+2.  **Feature Engineering:** Splitting columns like `ScreenResolution`, `Memory`, and `CPU` into more meaningful and analyzable features.
+3.  **Exploratory Data Analysis (EDA):** Analyzing the distribution and relationships of `Price` with characteristics like `Company`, `CPU`, `RAM`, and `Inches`.
+4.  **Visualization:** Using Seaborn to create histograms, box plots, and bar plots that demonstrate which specifications have the biggest impact on price.
+5.  **Key Findings:** Summarizing the main insights or discoveries derived from the data.
 
 ---
 
